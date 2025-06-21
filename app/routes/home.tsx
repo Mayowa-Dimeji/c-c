@@ -2,6 +2,7 @@ import type { Route } from "./+types/home";
 // import { Welcome } from "../welcome/welcome";
 import Navbar from "../navbar/navbar";
 import Introduction from "~/introduction/into";
+import MoreInfo from "~/moreInfo/more";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -15,6 +16,8 @@ export default function Home() {
     <>
       <Navbar />
       <Introduction />
+      <MoreInfo />
+      {/* <Welcome /> */}
     </>
   );
 }
