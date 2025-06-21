@@ -1,6 +1,7 @@
 import type { Route } from "./+types/home";
 // import { Welcome } from "../welcome/welcome";
-import DrawerAppBar from "../navbar/drawerExample";
+import Navbar from "../navbar/navbar";
+import Introduction from "~/introduction/into";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -10,5 +11,10 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <DrawerAppBar />;
+  return (
+    <>
+      <Navbar />
+      <Introduction />
+    </>
+  );
 }
