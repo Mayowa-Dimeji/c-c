@@ -17,7 +17,7 @@ function MoreInfo() {
           <h1 className="text-lg font-bold text-center">
             Experts in Project & Product Recruitment
           </h1>
-          <p>
+          <p className="text-center">
             C&C Consulting specialises in providing tailored contract and
             permanent staffing services for the Digital, Construction, and
             Energy sectors. With deep industry knowledge, we help businesses of
